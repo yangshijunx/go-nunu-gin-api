@@ -2,10 +2,10 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"nunu-template/api/v1"
-	"nunu-template/internal/service"
 	"go.uber.org/zap"
 	"net/http"
+	"nunu-template/api/v1"
+	"nunu-template/internal/service"
 )
 
 type UserHandler struct {
