@@ -2,8 +2,8 @@ package app
 
 import (
 	"context"
-	"nunu-template/pkg/server"
 	"log"
+	"nunu-template/pkg/server"
 	"os"
 	"os/signal"
 	"syscall"

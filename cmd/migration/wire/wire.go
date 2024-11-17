@@ -4,12 +4,12 @@
 package wire
 
 import (
+	"github.com/google/wire"
+	"github.com/spf13/viper"
 	"nunu-template/internal/repository"
 	"nunu-template/internal/server"
 	"nunu-template/pkg/app"
 	"nunu-template/pkg/log"
-	"github.com/google/wire"
-	"github.com/spf13/viper"
 )
 
 var repositorySet = wire.NewSet(
